@@ -1,0 +1,560 @@
+.padding-right-20{padding-right:20px !important;}
+.kt-portlet .kt-portlet__foot{padding-left:0px !important;}
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__forgot {
+    width: 100%;
+    max-width: 450px;
+}
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__forgot .kt-form .form-group .form-control{
+    border: none;
+    height: 50px;
+    margin-top: 1.25rem;
+    background-color: rgba(247, 247, 249, 0.7);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__forgot .kt-form {
+    margin: 4rem auto;
+}
+
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__forgot .kt-login__title{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__head {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #74788d;
+}
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__head .kt-login__desc{
+    text-align:center;
+}
+
+.kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__forgot .kt-login__actions .kt-login__btn-secondary, .kt-login.kt-login--v1 .kt-login__wrapper .kt-login__body .kt-login__forgot .kt-login__actions .kt-login__btn-primary {
+    font-weight: 500;
+    font-size: 1rem;
+    height: 50px;
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
+}
+
+  .kt-login.kt-login--v1.kt-login--signin .kt-kt-login__form {
+    display: block; }
+  
+  .kt-login.kt-login--v1.kt-login--signin .kt-login__forgot {
+    display: none; }
+  
+ 
+  .kt-login.kt-login--v1.kt-login--signup .kt-kt-login__form {
+    display: none; }
+  
+  .kt-login.kt-login--v1.kt-login--signup .kt-login__forgot {
+    display: none; }
+  
+  .kt-login.kt-login--v1.kt-login--signup .kt-login__account {
+    display: none; }
+  
+  .kt-login.kt-login--v1.kt-login--forgot .kt-login__form {
+    display: none; }
+  
+  .kt-login.kt-login--v1.kt-login--forgot .kt-login__forgot {
+    display: block; }
+
+    .dd-list {
+      list-style: none !important;
+  }
+.dd,
+.dd-list {
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+.dd,
+.dd-empty,
+.dd-item,
+.dd-placeholder {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+}
+.dd,
+.dd-item > button,
+.dd-list {
+    position: relative;
+}
+.dd-item > button,
+.dd3-handle {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.dd {
+    max-width: 600px;
+}
+.dd-list {
+    margin: 0;
+}
+.dd-list .dd-list {
+    padding-left: 30px;
+}
+.dd-collapsed .dd-list {
+    display: none;
+}
+.dd-empty,
+.dd-item,
+.dd-placeholder {
+    display: block;
+    padding: 0;
+    min-height: 20px;
+}
+.dd-handle {
+    cursor: default;
+    display: block;
+    margin: 5px 0;
+    padding: 7px 10px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.dd-handle:hover {
+    color: #fff;
+    background: #4d90fd;
+    border-color: #428bca;
+}
+.dd-item > button {
+    color: #555;
+    font-family: FontAwesome;
+    display: block;
+    cursor: pointer;
+    float: left;
+    width: 25px;
+    height: 20px;
+    margin: 8px 2px;
+    padding: 0;
+    text-indent: 100%;
+    border: 0;
+    background: 0 0;
+    font-size: 10px;
+    line-height: 1;
+    text-align: center;
+}
+.dd-item > button:before {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+}
+.dd-empty,
+.dd-placeholder {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #fff;
+    border: 1px dashed #b6bcbf;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.dd-empty {
+    border: 1px dashed #bbb;
+    min-height: 100px;
+    background-color: #e5e5e5;
+    background-image: -webkit-linear-gradient(
+            45deg,
+            #fff 25%,
+            transparent 25%,
+            transparent 75%,
+            #fff 75%,
+            #fff
+        ),
+        -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent
+                    75%, #fff 75%, #fff);
+    background-image: -moz-linear-gradient(
+            45deg,
+            #fff 25%,
+            transparent 25%,
+            transparent 75%,
+            #fff 75%,
+            #fff
+        ),
+        -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff
+                    75%, #fff);
+    background-image: linear-gradient(
+            45deg,
+            #fff 25%,
+            transparent 25%,
+            transparent 75%,
+            #fff 75%,
+            #fff
+        ),
+        linear-gradient(
+            45deg,
+            #fff 25%,
+            transparent 25%,
+            transparent 75%,
+            #fff 75%,
+            #fff
+        );
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+.dd3-content,
+.dd3-content:hover {
+    background: #fff;
+}
+.dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+}
+.dd-dragel > .dd-item .dd-handle {
+    margin-top: 0;
+}
+.dd-dragel .dd-handle {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.dd3-content {
+    display: block;
+    margin: 5px 0;
+    padding: 2px 10px 2px 40px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    color: #333;
+}
+.dd-dragel > .dd3-item > .dd3-content {
+    margin: 0;
+}
+.dd3-item > button {
+    margin-left: 35px;
+}
+.dd3-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: all-scroll;
+    width: 34px;
+    text-indent: 100%;
+    border: 1px solid #3276b1;
+    background: #428bca;
+    height: 26px;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+.dd3-handle:before {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.dd3-handle:hover {
+    background: #4e9dff;
+}
+
+.dd {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    list-style: none;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.dd-list {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dd-list .dd-list {
+    padding-left: 30px;
+}
+
+.dd-collapsed .dd-list {
+    display: none;
+}
+
+.dd-item,
+.dd-empty,
+.dd-placeholder {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.dd-handle {
+    display: block;
+    height: 30px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: move;
+    color: #979898;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.dd-handle:hover {
+    color: #317eeb;
+    background: #fff;
+}
+
+.dd-item > button {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    width: 25px;
+    height: 20px;
+    margin: 5px 0;
+    padding: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dd-item > button:before {
+    content: "+";
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+}
+
+.dd-item > button[data-action="collapse"]:before {
+    content: "-";
+}
+
+.dd-placeholder,
+.dd-empty {
+    margin: 5px 0;
+    padding: 0;
+    min-height: 30px;
+    background: #f5f5f5;
+    border: 1px dashed #b6bcbf;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.dd-empty {
+    border: 1px dashed #bbb;
+    min-height: 100px;
+    background-color: #e5e5e5;
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.dd-dragel {
+    position: absolute;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+.dd-dragel > .dd-item .dd-handle {
+    margin-top: 0;
+}
+
+.dd-dragel .dd-handle {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.dd3-content {
+    display: block;
+    height: 30px;
+    margin: 5px 0;
+    padding: 5px 10px 5px 40px;
+    color: #979898;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.dd3-content:hover {
+    color: #317eeb;
+    background: #fff;
+}
+
+.dd-dragel > .dd3-item > .dd3-content {
+    margin: 0;
+}
+
+.dd3-item > button {
+    margin-left: 30px;
+}
+
+.dd3-handle {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    width: 30px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background: #d5d5d5;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dd3-handle:before {
+    content: "=";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.dd3-handle:hover {
+    background: #404040;
+    border: 1px solid #404040;
+}
+
+.myadmin-dd .dd-list .dd-item .dd-handle {
+    background: #ffffff;
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    padding: 8px 16px;
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.myadmin-dd-empty .dd-list .dd3-content {
+    height: auto;
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    padding: 8px 16px 8px 46px;
+    background: #ffffff;
+    font-weight: 400;
+}
+
+.myadmin-dd-empty .dd-list .dd3-handle {
+    border: 1px solid rgba(120, 130, 140, 0.13);
+    border-bottom: 0;
+    background: #ffffff;
+    height: 36px;
+    width: 36px;
+}
+
+.dd3-handle:before {
+    color: #67757c;
+    top: 7px;
+}
+  
+.card-header {
+  border-radius: calc(0px - 0px) calc(0px - 0px) 0 0;
+  padding: 10px 15px;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label:before {
+  background-color: #2962FF;
+}
+
+.custom-control-label .header:before {
+  position: absolute;
+  top: 0.25rem;
+}
+.custom-control.custom-checkbox {
+    margin-bottom: 5px;
+}
+.custom-control-label:before {
+  
+  background-color: #dee2e6;
+}
+.custom-control-label {
+    padding-left: 3px;
+}
+.custom-control-label::after {
+  position: absolute;
+  top: 0.25rem;
+  left: -1.5rem;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 60% 60%;
+}
+label.custom-control-label{
+    font-weight: normal;
+    color: #000;
+}
+label.custom-control-label.header {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color:#202020;
+}
+.no-border{border:none;}
+
+.custom-control-label.header:before {
+  position: absolute;
+  top: 3px;
+}
+
+.custom-control-label.header:after {
+  position: absolute;
+  top: 3px;
+}
+
+.card-body.widget-content {
+  margin-left: -28px;
+}
+
+.bdr {border-bottom: 1px solid #dddddd;}
+
+.bdr-full {border-bottom: 1px solid #dddddd; border: 1px dotted #8e8e8e; margin-top: 10px; display: table; height: 100%;}
+.m10{margin: 10px 0px;}
+
+legend {
+  margin-bottom: -.5rem;
+}
+.copy_row,.delete_row{cursor: pointer;}
+.cityrow{border:1px dashed #c6c6c6;padding: 20px;margin-bottom: 10px;}
+.daterow{border:1px dashed #c6c6c6;padding: 20px;margin-bottom: 10px;}
